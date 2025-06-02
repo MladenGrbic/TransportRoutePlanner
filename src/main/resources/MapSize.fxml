@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.MapSizeController">
+   <padding>
+      <Insets top="20" right="24" bottom="24" left="24"/>
+   </padding>
+   <children>
+      <Label text="n (Redovi):"/>
+      <TextField fx:id="nField"/>
+      <Label text="m (Kolone):"/>
+      <TextField fx:id="mField"/>
+      <Button fx:id="createButton" text="Kreiraj"/>
+      <HBox alignment="BOTTOM_RIGHT" spacing="10">
+         <children>
+            <Button fx:id="showStatisticsButton" text="Prikaži statistiku"/>
+         </children>
+      </HBox>
+   </children>
+</VBox>

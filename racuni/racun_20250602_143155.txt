@@ -1,0 +1,8 @@
+Racun
+Datum kupovine: 02.06.2025 14:31
+Relacija: G_2_4 -> G_4_1
+Putanja: Z_2_4 do G_4_1|Ukupno: 24h53m, 4780 novčanih jedinica.
+Vrijeme trajanja: 1493
+Cijena: 4780
+Broj presjedanja: 13
+Kraj

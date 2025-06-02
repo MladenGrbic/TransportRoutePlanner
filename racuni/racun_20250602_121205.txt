@@ -1,0 +1,8 @@
+Racun
+Datum kupovine: 02.06.2025 12:12
+Relacija: G_0_1 -> G_6_5
+Putanja: Z_0_1 do G_6_5|Ukupno: 36h35m, 6588 novčanih jedinica.
+Vrijeme trajanja: 2195
+Cijena: 6588
+Broj presjedanja: 11
+Kraj

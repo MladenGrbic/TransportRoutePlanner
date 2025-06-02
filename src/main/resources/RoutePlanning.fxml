@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.canvas.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.RoutePlanningController">
+    <center>
+        <Canvas fx:id="canvas" width="1000" height="600" />
+    </center>
+    <right>
+        <VBox spacing="10" alignment="TOP_LEFT" style="-fx-padding: 10; -fx-background-color: #f5f89d">
+            <children>
+                <Label text="Početni grad:" />
+                <ComboBox fx:id="startCityCombo" />
+                <Label text="Krajnji grad:" />
+                <ComboBox fx:id="endCityCombo" />
+                <RadioButton fx:id="timeRadio" text="Najbrže" selected="true" />
+                <RadioButton fx:id="priceRadio" text="Najjeftinije" />
+                <RadioButton fx:id="transfersRadio" text="Najmanje presjedanja" />
+                <Button fx:id="findRoutesButton" text="Pronađi rute" />
+                <Separator />
+                <Label text="Najoptimalnija ruta" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+                <Label text="Putanja:" style="-fx-font-weight: bold;" />
+                <Label fx:id="pathLabel" text="" wrapText="true" style="-fx-max-width: 300;" />
+                <Label text="Vrijeme trajanja:" style="-fx-font-weight: bold;" />
+                <Label fx:id="timeLabel" text="" />
+                <Label text="Cijena:" style="-fx-font-weight: bold;" />
+                <Label fx:id="priceLabel" text="" />
+                <Label text="Presjedanja:" style="-fx-font-weight: bold;" />
+                <Label fx:id="transfersLabel" text="" />
+                <Button fx:id="buyButton" text="Kupi kartu" disable="true" />
+            </children>
+        </VBox>
+    </right>
+</BorderPane>
